@@ -1,0 +1,444 @@
+* {
+    /* margin: 0; */
+    /* padding: 0; */
+    box-sizing: border-box;
+    background-color: rgb(30, 30, 30);
+    color: white;
+}
+
+nav {
+
+    width: 100%;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.247);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 60%;
+    margin: auto;
+    margin-left: 300px;
+    background-color: transparent;
+}
+
+nav ul li {
+    float: left;
+    background-color: transparent;
+}
+
+li a {
+    text-decoration: none;
+    display: block;
+    padding: 16px;
+    margin-left: 30px;
+    color: white;
+    font-size: 20px;
+    background-color: transparent;
+}
+
+li a:hover {
+    color: rgb(115, 219, 219);
+    font-size: 30px;
+    transition: 0.4s;
+}
+
+#home img {
+    width: 100%;
+    height: 99vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgba(0, 0, 0, 0.13);
+    z-index: 1;
+    /* opacity: 0.8; */
+}
+
+.name {
+    width: 700px;
+    padding: 10px;
+    position: relative;
+    bottom: 400px;
+    left: 450px;
+    background-color: rgba(128, 128, 128, 0.171);
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.salma {
+    font-size: 40px;
+    background-color: transparent;
+    text-align: center;
+}
+
+.developer {
+    background-color: transparent;
+    font-size: 30px;
+    color: rgb(115, 219, 219);
+}
+
+.name p {
+    background-color: transparent;
+    font-size: 22px;
+}
+
+.about {
+    width: 80%;
+    margin: auto;
+    padding: 0%;
+}
+
+.aboutmeH1 {
+    margin-left: 570px;
+}
+
+.aboutmeP {
+    margin-left: 300px;
+}
+
+.about img {
+    height: 500px;
+    width: 350px;
+    border-radius: 15px;
+    opacity: 0.6;
+    margin-top: 50px;
+    outline: 2px solid rgb(115, 219, 219);
+}
+
+.meIMG {
+    width: 30%;
+    display: inline-block;
+}
+
+.infoAbout {
+    width: 60%;
+    display: inline-block;
+    padding: 10px;
+}
+
+.numberTable h1 {
+    color: rgb(115, 219, 219);
+}
+
+.nameInfoTable table {
+    width: 800px;
+    margin-left: 100px;
+    margin-top: 0;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.numberTable table {
+    font-size: 18px;
+    margin-left: 100px;
+}
+
+.beforicon {
+    color: rgb(115, 219, 219);
+}
+
+#resume {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.icone {
+    font-size: 30px;
+    border-radius: 100%;
+    background-color: black;
+    color: rgb(115, 219, 219);
+}
+
+.icone:hover {
+    font-size: 35px;
+    border-radius: 100%;
+    background-color: rgb(115, 219, 219);
+    color: black;
+
+}
+
+.resume1 {
+    display: inline-block;
+    width: 46%;
+    font-size: 17px;
+    margin-right: 70px;
+}
+
+.resume2 {
+    display: inline-block;
+    width: 46%;
+    font-size: 19px;
+}
+
+#resume section div {
+    border-left: 3px solid rgb(115, 219, 219);
+    padding-left: 20px;
+}
+
+/* #resume section div span::content {
+    
+} */
+.dateline {
+    background-color: rgb(115, 219, 219);
+    color: black;
+    width: 130px;
+}
+
+#resume section div span {
+    color: rgb(115, 219, 219);
+}
+
+#services {
+    width: 100%;
+    margin: auto;
+}
+
+.myServices {
+    margin-top: 50px;
+    margin-left: 500px;
+}
+
+.myServicesSpan {
+    margin-left: 300px;
+
+}
+
+#services .cards div {
+    margin-top: 40px;
+    display: inline-block;
+    width: 23%;
+    border: 2px solid rgb(115, 219, 219);
+    color: black;
+    margin-left: 15px;
+    height: 400px;
+    font-size: 17px;
+    line-height: 25px;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#services .cards div:hover {
+    margin-top: 40px;
+    display: inline-block;
+    width: 23%;
+    border: 2px solid rgb(115, 219, 219);
+    background-color: rgba(70, 104, 104, 0.144);
+    color: black;
+    margin-left: 15px;
+    height: 400px;
+    font-size: 17px;
+    line-height: 25px;
+    padding: 10px;
+    text-align: center;
+}
+
+#services .cards div h2 {
+    color: rgb(115, 219, 219);
+}
+
+
+
+.mypotfolioh1 {
+    margin-left: 520px;
+    margin-top: 100px;
+}
+
+.mypotfolioSpan {
+    margin-left: 330px;
+}
+
+#portfolio>ul {
+    margin-left: 280px;
+
+}
+
+#portfolio ul li {
+    list-style-type: none;
+    float: left;
+
+}
+
+#portfolio ul li a {
+    display: block;
+    font-size: 17px;
+    border: 1px solid rgb(115, 219, 219);
+    width: 100px;
+    text-align: center;
+}
+
+#portfolio ul li a:hover {
+    background-color: rgb(115, 219, 219);
+    color: black;
+    border: 2px solid white;
+}
+
+.images {
+    width: 100%;
+    margin: auto;
+    margin-top: 100px;
+    margin-left: 120px;
+
+}
+
+.images .img1 {
+    width: 330px;
+    height: 500px;
+    margin-right: 10px;
+}
+
+.images .img2 {
+    width: 330px;
+    height: 300px;
+    margin-bottom: 190px;
+    margin-right: 10px;
+}
+
+.images .img3 {
+    width: 370px;
+}
+
+.images .img4 {
+    height: 250px;
+    margin-bottom: 350px;
+    width: 327px;
+    margin-right: 30px;
+}
+
+.images .img5 {
+    width: 300px;
+    position: relative;
+    bottom: 395px;
+    height: 390px;
+    margin-right: 20px;
+}
+
+.images .img6 {
+    position: relative;
+    bottom: 200px;
+    height: 400px;
+}
+
+
+.pricing {
+    width: 90%;
+    margin: auto;
+}
+
+.pricing .Pricecards div {
+    margin-top: 70px;
+    display: inline-block;
+    width: 23%;
+    border: 2px dashed rgb(115, 219, 219);
+    color: black;
+    margin-left: 15px;
+    height: 320px;
+    font-size: 17px;
+    line-height: 26px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.pricing .Pricecards div button {
+    background-color: rgb(115, 219, 219);
+    color: black;
+    width: 230px;
+    height: 50px;
+}
+
+.pricing .Pricecards div button:hover {
+    background-color: white;
+    color: black;
+    border: 3px solid rgb(115, 219, 219);
+}
+
+
+.pricing .Pricecards div h2 {
+    color: rgb(115, 219, 219);
+}
+
+.pho {
+    background-image: url(img/testimonials-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto 0%;
+    padding: 30px;
+    width: 100%;
+    height: 700px;
+
+}
+
+.we {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    padding-right: 60px;
+
+}
+
+.bl {
+    background-color: rgba(0, 0, 0, 0.473);
+    width: 100%;
+    padding: 60px;
+    height: 530px;
+    margin: 0;
+}
+
+.user-name {
+    color: white;
+    font-family: inherit;
+}
+
+.slider-wrapper {
+    overflow: hidden;
+    max-width: 1200px;
+    margin: 0 70px 55px;
+
+}
+
+.car-list .card-item .user-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 10px solid rgba(0, 0, 0, 0.349);
+}
+
+.car-list .card-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 190px;
+
+}
+
+.car-list .card-item .user-profession {
+    font-size: 20px;
+    color: whitesmoke;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+footer {
+    background: url("butterfly.jpg");
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+}
+
+.foot {
+    position: relative;
+    top: 100px;
+    left: 15px;
+    text-align: center;
+    background-color: transparent;
+}
+
+.foot h1,
+p {
+    background-color: transparent;
+}
